@@ -108,7 +108,13 @@
 			<div class="details">
 				<h2>{event.category} - {event.title}</h2>
 
-				<p class="location"><a href={event.locationURL} target="_blank" rel="noreferrer">{event.location}</a></p>
+				<p class="location">
+					{#if event.locationURL}
+						<a href={event.locationURL} target="_blank" rel="noreferrer">{event.location}</a>
+					{:else}
+						{event.location}
+					{/if}
+				</p>
 
 				{#if event.trainFriendly}
 					<p class="train"><IconTrain /> Train Friendly</p>
