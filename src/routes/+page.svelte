@@ -204,6 +204,10 @@
 		}
 
 		@media screen and (min-width: 768px) {
+        #calendar > section {
+            flex-wrap: nowrap;
+        }
+
         section > .date {
             order: 1;
         }
