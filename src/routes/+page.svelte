@@ -198,11 +198,11 @@
 		}
 
 		@media screen and (min-width: 768px) {
-        #calendar > .date {
+        section > .date {
             order: 1;
         }
 
-        #calendar > .details {
+        section > .details {
             order: 2;
         }
 
