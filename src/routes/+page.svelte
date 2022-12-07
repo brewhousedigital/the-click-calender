@@ -100,7 +100,7 @@
 			<div class="date">
 				<p>{prettyDate(event.event_date)}</p>
 				<p>{dayName(event.event_date)}</p>
-				<p class="time">{event.time}</p>
+				{#if event.time}<p class="time">{event.time}</p>{/if}
 			</div>
 
 
@@ -159,6 +159,9 @@
         order: 1;
     }
 
+    .date {width: 100%;}
+    .time {width: 100%;}
+
     #calendar h2, #calendar p {
         margin: 0 0 8px 0;
         line-height: 1em;
@@ -216,7 +219,7 @@
             order: 2;
         }
 
-        .date {max-width: 170px; width: 100%;}
-        .time {max-width: 100px; width: 100%;}
+        .date {max-width: 170px;}
+        .time {max-width: 100px;}
 		}
 </style>
