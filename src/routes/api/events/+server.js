@@ -15,6 +15,7 @@ export async function GET() {
 
     return new Response(JSON.stringify(records));
   } catch (error) {
+    console.log(">>>Error", error)
     return new Response(JSON.stringify([]));
   }
 }
