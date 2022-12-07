@@ -1,0 +1,2 @@
+export const BackendlessAPP_ID = 'BFD3873C-0565-EBFE-FFA8-8001D60AC000';
+export const BackendlessAPI_KEY = '8561E43D-334E-44E4-B05E-40A81D6E081A';

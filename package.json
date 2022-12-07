@@ -1,0 +1,21 @@
+{
+	"name": "the-click-calender",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-netlify": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.53.1",
+		"vite": "^3.2.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"backendless": "^6.5.7",
+		"dayjs": "^1.11.7"
+	}
+}
